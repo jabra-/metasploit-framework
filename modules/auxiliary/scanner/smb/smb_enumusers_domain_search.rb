@@ -22,7 +22,7 @@ class Metasploit3 < Msf::Auxiliary
     'Version' =>  '$Revision $',
     'Description' =>  'Enumerate if any of the users in the USERS file are
 logged into the remote systems. Any found users are stored in the DB.
-(notes -t smb.enumusers_domain_search ),'
+(notes -t smb.enumusers_domain_search )',
     'Author'    =>  [ 'Josh Abraham <jabra[at]praetorian.com>', ],
     'References'  =>
     [ [ 'URL',  'http://msdn.microsoft.com/en-us/library/aa370669%28VS.85%29.aspx'  ] ],
